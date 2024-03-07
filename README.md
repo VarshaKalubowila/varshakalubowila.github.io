@@ -1,17 +1,9 @@
 # Varsha Kalubowila
 
-[Technical Skills](#technical-skills) | [PROJECTS](#projects) | [Contact](#contact)
+[PROFESSIONAL RESEARCH EXPERIENCE](#work-experience) | [PROJECTS](#projects) | [Contact](#contact)
 
 ## Hello!
 I’m Varsha, currently a M2 student at BME Paris Program.
----
-
-## Technical Skills
-
-- Machine learning software with Deep Learning frameworks: TensorFlow, OpenCV
-- Programming Languages: Python, Java, MATLAB, R, C/C++
-- Data Visualisation: Tableau, PowerBI
-
 ---
 
 ## EDUCATION
@@ -26,7 +18,7 @@ I’m Varsha, currently a M2 student at BME Paris Program.
 
 ---
 
-## Work Experience
+## PROFESSIONAL RESEARCH EXPERIENCE
 
 ### Research Engineer Intern (02/2024-Current)
 Agency - Institut Jean Nicod (ENS - PSL) - Capgemeni Engineering 
@@ -90,8 +82,23 @@ Ceylon Business Appliances (Pvt) Ltd, Sri Lanka.
 
 ---
 
+
+## Technical Skills
+
+- Machine learning software with Deep Learning frameworks: TensorFlow, OpenCV
+- Programming Languages: Python, Java, MATLAB, R, C/C++
+- Data Visualisation: Tableau, PowerBI
+
+---
+
 ## CERTIFICATIONS
 
 - **Google Data Analytics (2021)**
 - **Python for Genomic Data Science (2020)**
   - John Hopkins University
+ 
+---
+
+## CONTACT
+- https://www.linkedin.com/in/varsha-kalubowila/
+- varsha.kalubowila@etu.u-paris.fr
