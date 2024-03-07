@@ -64,17 +64,16 @@ Ceylon Business Appliances (Pvt) Ltd, Sri Lanka
 - Created an intuitive brain alignment application with a streamlined workflow, interactive flowcharts, and researcher guides
 - The toolkit includes comprehensive prerequisites for seamless integration, optimising alignment to brain atlases, cell detection, and 3D reconstruction processes. 
 
-
 ### Clinical Decision Support System for Spinal Cord Disorder Diagnosis and Management (2022)
   - Contributed to the development of a Clinical Decision Support System (CDSS) utilising machine learning and deep learning techniques specifically tailored for diagnosing and managing Spinal cord disorders
   - Collaborated with a multidisciplinary team to design and implement the system, integrating advanced algorithms to analyse medical data and provide personalised recommendations for treatment strategies
 
-### AI-Driven Agriculture Management System (AMS) with IoT Integration (2022)
+### AI-Driven Agriculture Management System (AMS) with IoT Integration (2022)  [Link to project](https://drive.google.com/u/0/uc?id=1hcPwwZDcmVIBp97mhlGNkrDuFQzIMA6r&export=download)
   - Led the development of an advanced Agriculture Management System (AMS) integrating AI, IoT, and Blender software.
   - Created a digital twin of agricultural environments and employed IoT sensors for real-time data collection.
   - Implemented AI algorithms for predictive analytics and designed a user-friendly interface for farmers.
 
-### NLP-based BERT Model for Textual Entailment Prediction in the Legal Domain (2022)
+### NLP-based BERT Model for Textual Entailment Prediction in the Legal Domain (2022) [Link to project](https://www.engenuityai.com/general-4)
   - Led the conception, design, and execution of the NLP-based BERT model project for legal domain textual entailment prediction
   - Curated and annotated a high-quality dataset tailored to legal text understanding and entailment recognition.
   - Implemented advanced NLP techniques and model fine-tuning strategies to optimise BERT performance for legal text analysis
