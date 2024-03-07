@@ -1,6 +1,6 @@
-# Varsha Kalubowila
+![image](https://github.com/VarshaKalubowila/varshakalubowila.github.io/assets/162577638/026f1b49-13e6-4c49-a8ae-e192958b8943)![image](https://github.com/VarshaKalubowila/varshakalubowila.github.io/assets/162577638/4fb9287b-8dc8-4be2-bfd7-cfb8490b456f)# Varsha Kalubowila
 
-[PROFESSIONAL RESEARCH EXPERIENCE](#work-experience) | [PROJECTS](#projects) | [Contact](#contact)
+[Professional Research Experience](#Professional-Research-Experience) | [Projects](#projects) | [Contact](#contact)
 
 ## Hello!
 I’m Varsha, currently a M2 student at BME Paris Program.
