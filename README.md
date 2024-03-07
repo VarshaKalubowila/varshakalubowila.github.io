@@ -59,10 +59,11 @@ Ceylon Business Appliances (Pvt) Ltd, Sri Lanka
 - (NNMF) for robust data analysis
 - Identification of critical muscle synergy patterns associated with falls across diverse scenarios, contributing valuable insights to the field of fall prevention
 
-### ToolKit for Mouse Brain Mapping (2023)
+### ToolKit for Mouse Brain Mapping (2023) [Link to project](https://wiki.bme-paris.com/2023-project08/tiki-index.php?page=Home)
 - Developed a comprehensive toolkit for mouse brain mapping, focusing on user-centric design principles to enhance research efficiency and accuracy
 - Created an intuitive brain alignment application with a streamlined workflow, interactive flowcharts, and researcher guides
-- The toolkit includes comprehensive prerequisites for seamless integration, optimising alignment to brain atlases, cell detection, and 3D reconstruction processes
+- The toolkit includes comprehensive prerequisites for seamless integration, optimising alignment to brain atlases, cell detection, and 3D reconstruction processes. 
+
 
 ### Clinical Decision Support System for Spinal Cord Disorder Diagnosis and Management (2022)
   - Contributed to the development of a Clinical Decision Support System (CDSS) utilising machine learning and deep learning techniques specifically tailored for diagnosing and managing Spinal cord disorders
