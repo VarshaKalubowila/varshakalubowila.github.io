@@ -21,28 +21,27 @@ Agency - Institut Jean Nicod (ENS - PSL) - Capgemeni Engineering
   - Conducting EEG data acquisition sessions with participants interacting with the HMI.
   - Employing Machine learning techniques to analyse EEG data and identify potential physiological fluctuations correlating with behavioural measures of agency.
  
-**Research Engineer Intern (04/2023 - 08/2023)**
-
+**Research Engineer Intern (04/2023 - 08/2023)**<br>
 Plateforme d’Etude de la Sensorimotricité, CNRS
   - Conducted extensive literature review on muscle synergy analysis and fall conditions.
   - Developed signal processing techniques for EMG data processing.
   - Designed and implemented machine learning algorithms using MATLAB for data analysis.
   - Uncovered key patterns in muscle synergies associated with falls in diverse scenarios.
 
-**Research Engineer Intern (02/2023 - 03/2023)**
-- Brain Plasticity Unit - PSL
+**Research Engineer Intern (02/2023 - 03/2023)**<br>
+Brain Plasticity Unit - PSL
   - Developed a user-friendly brain alignment application using Python.
   - Simplified complex processes, included prerequisite information, interactive flowchart, and detailed guides for researchers.
   - Streamlined alignment to a brain atlas, cell detection, and 3D reconstruction.
     
-**Data Scientist (07/2021 - 08/2022)**
-- Engenuity Ai (Pvt) Ltd, Sri Lanka
+**Data Scientist (07/2021 - 08/2022)**<br>
+Engenuity Ai (Pvt) Ltd, Sri Lanka
   - Developed an NLP-based BERT model for the Legal domain, enhancing textual entailment prediction.
   - Contributed to the development of a Clinical Decision Support System using machine learning and deep learning techniques for Spinal cord disorders.
   - 3D design and development of Hardware-software interaction of digital twin for Textile and Agricultural industry.
 
-**Prototype Developer 01/2020 - 06/2021**
-- Ceylon Business Appliances (Pvt) Ltd, Sri Lanka.
+**Prototype Developer 01/2020 - 06/2021**<br>
+Ceylon Business Appliances (Pvt) Ltd, Sri Lanka.
   - Industry Based research in bio-signal processing and wearable technologies.
   - Supporting manufacturing and design activities by developing prototypes for products. 
 
