@@ -8,12 +8,12 @@ I'm Varsha, currently diving into the world of biomedical engineering as an Mast
 
 ## EDUCATION
 
-**Master BioMedical Engineering Specialising in Bioengineering and Innovation in Neuroscience | (_2022-2024_)**
+**Master BioMedical Engineering Specialising in Bioengineering and Innovation in Neuroscience | (2022-2024)**
   - Paris Sciences et Lettres University (France)
   - Arts et Métiers ParisTech (France)
   - Université Paris Cité (France)<br>
   
-**Bachelor of Biomedical Engineering (Hons) | (_June 2021_)**
+**Bachelor of Biomedical Engineering (Hons) | (June 2021)**
   - Graduated with First-Class Honours
   - Birmingham City University (U.K)
 
@@ -21,7 +21,7 @@ I'm Varsha, currently diving into the world of biomedical engineering as an Mast
 
 ## PROFESSIONAL RESEARCH EXPERIENCE
 
-**Research Engineer Intern (02/2024-Current)** <br>
+**Research Engineer Intern (02/2024 - Current)** <br>
 Agency - Institut Jean Nicod (ENS - PSL) - Capgemeni Engineering 
   - Adapting an existing experimental paradigm designed for behavioural data acquisition to incorporate EEG data acquisition.
   - Conducting EEG data acquisition sessions with participants interacting with the HMI.
@@ -34,7 +34,7 @@ Plateforme d’Etude de la Sensorimotricité, CNRS
   - Designed and implemented machine learning algorithms using MATLAB for data analysis.
   - Uncovered key patterns in muscle synergies associated with falls in diverse scenarios.
 
-**Research Engineer Intern (02/2023 - 03/2023**)<br>
+**Research Engineer Intern (02/2023 - 03/2023)** <br>
 Brain Plasticity Unit - PSL
   - Developed a user-friendly brain alignment application using Python.
   - Simplified complex processes, included prerequisite information, interactive flowchart, and detailed guides for researchers.
@@ -46,7 +46,7 @@ Engenuity Ai (Pvt) Ltd, Sri Lanka
   - Contributed to the development of a Clinical Decision Support System using machine learning and deep learning techniques for Spinal cord disorders.
   - 3D design and development of Hardware-software interaction of digital twin for Textile and Agricultural industry.
 
-**Prototype Developer (01/2020 - 06/2021)**<br>
+**Prototype Developer (01/2020 - 06/2021)** <br>
 Ceylon Business Appliances (Pvt) Ltd, Sri Lanka
   - Industry Based research in bio-signal processing and wearable technologies.
   - Supporting manufacturing and design activities by developing prototypes for products. 
