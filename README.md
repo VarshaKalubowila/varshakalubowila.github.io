@@ -102,5 +102,4 @@ Ceylon Business Appliances (Pvt) Ltd, Sri Lanka
 ---
 
 ## CONTACT
-- https://www.linkedin.com/in/varsha-kalubowila/
 - varsha.kalubowila@etu.u-paris.fr
