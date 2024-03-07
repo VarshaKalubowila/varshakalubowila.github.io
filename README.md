@@ -1,31 +1,9 @@
 # Varsha Kalubowila
 
-![logo](/assets/garden.png)
-
-[Publications](#publications) | [CV](#cv) | [Contact](#contact)
-
-## Description
-Text below image
-
-# Hello!
-## I’m Varsha, currently a M2 student at BME Paris Program.
-
----
-
-## Table of Contents
-
-- [Technical Skills](#technical-skills)
-- [EDUCATION](#education)
-- [Work Experience](#work-experience)
-- [PROJECTS](#projects)
-- [CERTIFICATIONS](#certifications)
-
----
+[Technical Skills](#technical-skills) | [PROJECTS](#projects) | [Contact](#contact)
 
 ## Hello!
-
 I’m Varsha, currently a M2 student at BME Paris Program.
-
 ---
 
 ## Technical Skills
