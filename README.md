@@ -1,5 +1,5 @@
 
-[Professional Research Experience](#Professional-Research-Experience) | [Projects](#projects) | [Contact](#contact)
+[Professional Research Experience](#professional-research-experience) | [Projects](#projects) | [Contact](#contact)
 
 ## Hello!
 I’m Varsha, currently a M2 student at BME Paris Program.
@@ -44,8 +44,8 @@ Engenuity Ai (Pvt) Ltd, Sri Lanka
   - Contributed to the development of a Clinical Decision Support System using machine learning and deep learning techniques for Spinal cord disorders.
   - 3D design and development of Hardware-software interaction of digital twin for Textile and Agricultural industry.
 
-### Prototype Developer 01/2020 - 06/2021
-Ceylon Business Appliances (Pvt) Ltd, Sri Lanka.
+### Prototype Developer (01/2020 - 06/2021)
+Ceylon Business Appliances (Pvt) Ltd, Sri Lanka
   - Industry Based research in bio-signal processing and wearable technologies.
   - Supporting manufacturing and design activities by developing prototypes for products. 
 
