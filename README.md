@@ -58,6 +58,10 @@
 - Created an intuitive brain alignment application with a streamlined workflow, interactive flowcharts, and researcher guides
 - The toolkit includes comprehensive prerequisites for seamless integration, optimising alignment to brain atlases, cell detection, and 3D reconstruction processes
 
+**Clinical Decision Support System for Spinal Cord Disorder Diagnosis and Management (2022)**
+  - Contributed to the development of a Clinical Decision Support System (CDSS) utilising machine learning and deep learning techniques specifically tailored for diagnosing and managing Spinal cord disorders
+  - Collaborated with a multidisciplinary team to design and implement the system, integrating advanced algorithms to analyse medical data and provide personalised recommendations for treatment strategies
+
 **AI-Driven Agriculture Management System (AMS) with IoT Integration (2022)**
   - Led the development of an advanced Agriculture Management System (AMS) integrating AI, IoT, and Blender software.
   - Created a digital twin of agricultural environments and employed IoT sensors for real-time data collection.
@@ -69,7 +73,7 @@
   - Implemented advanced NLP techniques and model fine-tuning strategies to optimise BERT performance for legal text analysis
   - Collaborated closely with legal experts to ensure the model's accuracy and relevance to real-world legal applications
  
-##CERTIFICATIONS
+###CERTIFICATIONS
 - **Google Data Analytics (2021)**
 - **Python for Genomic Data Science (2020)**
   - John Hopkins University
