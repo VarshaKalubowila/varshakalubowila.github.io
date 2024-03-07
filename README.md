@@ -1,4 +1,6 @@
-# Data Scientist
+# Hello!
+## I’m Varsha, currently a M2 student at BME Paris Program.
+
 
 ##### Technical Skills
 - Machine learning software with Deep Learning frameworks: TensorFlow, OpenCV
