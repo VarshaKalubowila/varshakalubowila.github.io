@@ -15,7 +15,7 @@
   - Birmingham City University (U.K)
 
 ## Work Experience
-**Research Engineer Intern (02/2024-Current)** 
+- **Research Engineer Intern (02/2024-Current)** 
 - Agency - Institut Jean Nicod (ENS - PSL) - Capgemeni Engineering 
   - Adapting an existing experimental paradigm designed for behavioural data acquisition to incorporate EEG data acquisition.
   - Conducting EEG data acquisition sessions with participants interacting with the HMI.
@@ -33,6 +33,7 @@
   - Developed a user-friendly brain alignment application using Python.
   - Simplified complex processes, included prerequisite information, interactive flowchart, and detailed guides for researchers.
   - Streamlined alignment to a brain atlas, cell detection, and 3D reconstruction.
+    
 - **Data Scientist (07/2021 - 08/2022)**
 - Engenuity Ai (Pvt) Ltd, Sri Lanka
   - Developed an NLP-based BERT model for the Legal domain, enhancing textual entailment prediction.
