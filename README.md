@@ -21,7 +21,7 @@ I'm Varsha, currently diving into the world of biomedical engineering as an Mast
 
 ## PROFESSIONAL RESEARCH EXPERIENCE
 
-#### Research Engineer Intern (02/2024-Current)
+**Research Engineer Intern (02/2024-Current)** <br>
 Agency - Institut Jean Nicod (ENS - PSL) - Capgemeni Engineering 
   - Adapting an existing experimental paradigm designed for behavioural data acquisition to incorporate EEG data acquisition.
   - Conducting EEG data acquisition sessions with participants interacting with the HMI.
