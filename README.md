@@ -46,7 +46,7 @@
   - Supporting manufacturing and design activities by developing prototypes for products. 
 
 
-### PROJECTS
+## PROJECTS
 **Muscle Synergy Detection (2023)**
 - Conducted an exhaustive literature review on muscle synergy analysis and fall conditions
 - Development of MATLAB-based machine learning algorithms employing Non-negative Matrix Factorisation
@@ -73,7 +73,7 @@
   - Implemented advanced NLP techniques and model fine-tuning strategies to optimise BERT performance for legal text analysis
   - Collaborated closely with legal experts to ensure the model's accuracy and relevance to real-world legal applications
  
-###CERTIFICATIONS
+## CERTIFICATIONS
 - **Google Data Analytics (2021)**
 - **Python for Genomic Data Science (2020)**
   - John Hopkins University
