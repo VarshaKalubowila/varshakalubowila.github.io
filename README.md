@@ -6,11 +6,11 @@
 - Data Visualisation: Tableau, PowerBI
 
 ## EDUCATION
-** Master BioMedical Engineering Specialising in Bioengineering and Innovation in Neuroscience | BME Paris (M2)**
+- Master BioMedical Engineering Specialising in Bioengineering and Innovation in Neuroscience | BME Paris (M2)
   - Paris Sciences et Lettres University (France)
   - Arts et Métiers ParisTech (France)
   - Université Paris Cité (France)
-**Bachelor of Biomedical Engineering (Hons)**
+- Bachelor of Biomedical Engineering (Hons) | (_June 2021_)
   - Graduated with First-Class Honours
   - Birmingham City University (U.K)
 
