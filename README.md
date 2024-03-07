@@ -1,7 +1,25 @@
-# varshakalubowila.github.io
+# Data Scientist
 
-### EDUCATION
-Master BioMedical Engineering Specialising in Bioengineering and Innovation in Neuroscience BME Paris (M2)
+##### Technical Skills
+- Machine learning software with Deep Learning frameworks: TensorFlow, OpenCV
+- Programming Languages: Python, Java, MATLAB, R, C/C++
+- Data Visualisation: Tableau, PowerBI
+
+## EDUCATION
+** Master BioMedical Engineering Specialising in Bioengineering and Innovation in Neuroscience | BME Paris (M2)**
+  - Paris Sciences et Lettres University (France)
+  - Arts et Métiers ParisTech (France)
+  - Université Paris Cité (France)
+**Bachelor of Biomedical Engineering (Hons)**
+  - Graduated with First-Class Honours
+  - Birmingham City University (U.K)
+
+## Work Experience
+**Research Engineer Intern @ Agency - Institut Jean Nicod (ENS - PSL) - Capgemeni Engineering (02/2024-Current)**
+- Adapting an existing experimental paradigm designed for behavioural data acquisition to incorporate EEG data acquisition.
+- Conducting EEG data acquisition sessions with participants interacting with the HMI.
+- Employing Machine learning techniques to analyse EEG data and identify potential physiological fluctuations correlating with behavioural measures of agency.
+
 
 ### PROJECTS
 **Muscle Synergy Detection (2023)**
