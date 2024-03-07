@@ -8,7 +8,7 @@ I’m Varsha, currently a M2 student at BME Paris Program.
 
 ## EDUCATION
 
-- Master BioMedical Engineering Specialising in Bioengineering and Innovation in Neuroscience | BME Paris (M2)
+- Master BioMedical Engineering Specialising in Bioengineering and Innovation in Neuroscience | (_2022-2024_)
   - Paris Sciences et Lettres University (France)
   - Arts et Métiers ParisTech (France)
   - Université Paris Cité (France)
