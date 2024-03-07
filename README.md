@@ -1,8 +1,25 @@
+# Varsha Kalubowila
+
+
+## Description
+text below image
+
 # Hello!
 ## I’m Varsha, currently a M2 student at BME Paris Program.
 
+## Table of Contents
+- [Technical Skills](#technical-skills)
+- [EDUCATION](#education)
+- [Work Experience](#work-experience)
+  - [Research Engineer Intern (02/2024-Current)](#research-engineer-intern-022024-current)
+  - [Research Engineer Intern (04/2023 - 08/2023)](#research-engineer-intern-042023---082023)
+  - [Research Engineer Intern (02/2023 - 03/2023)](#research-engineer-intern-022023---032023)
+  - [Data Scientist (07/2021 - 08/2022)](#data-scientist-072021---082022)
+  - [Prototype Developer 01/2020 - 06/2021](#prototype-developer-012020---062021)
+- [PROJECTS](#projects)
+- [CERTIFICATIONS](#certifications)
 
-##### Technical Skills
+## Technical Skills
 - Machine learning software with Deep Learning frameworks: TensorFlow, OpenCV
 - Programming Languages: Python, Java, MATLAB, R, C/C++
 - Data Visualisation: Tableau, PowerBI
@@ -17,32 +34,32 @@
   - Birmingham City University (U.K)
 
 ## Work Experience
-**Research Engineer Intern (02/2024-Current)**<br>
+### Research Engineer Intern (02/2024-Current)
 Agency - Institut Jean Nicod (ENS - PSL) - Capgemeni Engineering 
   - Adapting an existing experimental paradigm designed for behavioural data acquisition to incorporate EEG data acquisition.
   - Conducting EEG data acquisition sessions with participants interacting with the HMI.
   - Employing Machine learning techniques to analyse EEG data and identify potential physiological fluctuations correlating with behavioural measures of agency.
  
-**Research Engineer Intern (04/2023 - 08/2023)**<br>
+### Research Engineer Intern (04/2023 - 08/2023)
 Plateforme d’Etude de la Sensorimotricité, CNRS
   - Conducted extensive literature review on muscle synergy analysis and fall conditions.
   - Developed signal processing techniques for EMG data processing.
   - Designed and implemented machine learning algorithms using MATLAB for data analysis.
   - Uncovered key patterns in muscle synergies associated with falls in diverse scenarios.
 
-**Research Engineer Intern (02/2023 - 03/2023)**<br>
+### Research Engineer Intern (02/2023 - 03/2023)
 Brain Plasticity Unit - PSL
   - Developed a user-friendly brain alignment application using Python.
   - Simplified complex processes, included prerequisite information, interactive flowchart, and detailed guides for researchers.
   - Streamlined alignment to a brain atlas, cell detection, and 3D reconstruction.
     
-**Data Scientist (07/2021 - 08/2022)**<br>
+### Data Scientist (07/2021 - 08/2022)
 Engenuity Ai (Pvt) Ltd, Sri Lanka
   - Developed an NLP-based BERT model for the Legal domain, enhancing textual entailment prediction.
   - Contributed to the development of a Clinical Decision Support System using machine learning and deep learning techniques for Spinal cord disorders.
   - 3D design and development of Hardware-software interaction of digital twin for Textile and Agricultural industry.
 
-**Prototype Developer 01/2020 - 06/2021**<br>
+### Prototype Developer 01/2020 - 06/2021
 Ceylon Business Appliances (Pvt) Ltd, Sri Lanka.
   - Industry Based research in bio-signal processing and wearable technologies.
   - Supporting manufacturing and design activities by developing prototypes for products. 
