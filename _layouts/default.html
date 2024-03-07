@@ -26,6 +26,11 @@
       margin-left: 10px; /* Adjust the margin as needed */
       vertical-align: middle;
     }
+
+    .contact-info a {
+      display: block;
+      margin-bottom: 5px; /* Adjust the margin between links */
+    }
   </style>
 </head>
 <body>
@@ -38,13 +43,15 @@
     </div>
     <h1 class="site-title"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
+    <p>{{ site.description | default: site.github.project_tagline }}</p>
+
     <div class="contact-info">
       <a href="mailto:varsha.kalubowila@etu.u-paris.fr">
-        <img src="/image/mail.png" alt="Email Logo" style="width: 30px;">
+        <img src="/image/mail.png" alt="Email Logo" style="width: 20px;">
         <span>Email</span>
       </a>
       <a href="https://www.linkedin.com/in/varsha-kalubowila/">
-        <img src="/image/linkedin.png" alt="LinkedIn Logo" style="width: 30px;">
+        <img src="/image/linkedin.png" alt="LinkedIn Logo" style="width: 20px;">
         <span>LinkedIn</span>
       </a>
     </div>
