@@ -2,6 +2,8 @@
 
 ## Hey there!
 I'm Varsha, currently diving into the world of biomedical engineering as an Masters student in Paris. I'm passionate about unraveling the complexities of neuroscience and bioengineering. 
+
+
 ---
 
 ## EDUCATION
