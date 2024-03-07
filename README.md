@@ -49,32 +49,47 @@ Ceylon Business Appliances (Pvt) Ltd, Sri Lanka.
 
 
 ## PROJECTS
-**Muscle Synergy Detection (2023)**
-- Conducted an exhaustive literature review on muscle synergy analysis and fall conditions
-- Development of MATLAB-based machine learning algorithms employing Non-negative Matrix Factorisation
-- (NNMF) for robust data analysis
-- Identification of critical muscle synergy patterns associated with falls across diverse scenarios, contributing valuable insights to the field of fall prevention
 
-**ToolKit for Mouse Brain Mapping (2023)**
+<details>
+  <summary>Muscle Synergy Detection (2023)</summary>
+
+- Conducted an exhaustive literature review on muscle synergy analysis and fall conditions
+- Development of MATLAB-based machine learning algorithms employing Non-negative Matrix Factorisation (NNMF) for robust data analysis
+- Identification of critical muscle synergy patterns associated with falls across diverse scenarios, contributing valuable insights to the field of fall prevention
+</details>
+
+<details>
+  <summary>ToolKit for Mouse Brain Mapping (2023)</summary>
+
 - Developed a comprehensive toolkit for mouse brain mapping, focusing on user-centric design principles to enhance research efficiency and accuracy
 - Created an intuitive brain alignment application with a streamlined workflow, interactive flowcharts, and researcher guides
 - The toolkit includes comprehensive prerequisites for seamless integration, optimising alignment to brain atlases, cell detection, and 3D reconstruction processes
+</details>
 
-**Clinical Decision Support System for Spinal Cord Disorder Diagnosis and Management (2022)**
-  - Contributed to the development of a Clinical Decision Support System (CDSS) utilising machine learning and deep learning techniques specifically tailored for diagnosing and managing Spinal cord disorders
-  - Collaborated with a multidisciplinary team to design and implement the system, integrating advanced algorithms to analyse medical data and provide personalised recommendations for treatment strategies
+<details>
+  <summary>Clinical Decision Support System for Spinal Cord Disorder Diagnosis and Management (2022)</summary>
 
-**AI-Driven Agriculture Management System (AMS) with IoT Integration (2022)**
-  - Led the development of an advanced Agriculture Management System (AMS) integrating AI, IoT, and Blender software.
-  - Created a digital twin of agricultural environments and employed IoT sensors for real-time data collection.
-  - Implemented AI algorithms for predictive analytics and designed a user-friendly interface for farmers.
+- Contributed to the development of a Clinical Decision Support System (CDSS) utilising machine learning and deep learning techniques specifically tailored for diagnosing and managing Spinal cord disorders
+- Collaborated with a multidisciplinary team to design and implement the system, integrating advanced algorithms to analyse medical data and provide personalised recommendations for treatment strategies
+</details>
 
-**NLP-based BERT Model for Textual Entailment Prediction in the Legal Domain (2022)**
-  - Led the conception, design, and execution of the NLP-based BERT model project for legal domain textual entailment prediction
-  - Curated and annotated a high-quality dataset tailored to legal text understanding and entailment recognition.
-  - Implemented advanced NLP techniques and model fine-tuning strategies to optimise BERT performance for legal text analysis
-  - Collaborated closely with legal experts to ensure the model's accuracy and relevance to real-world legal applications
- 
+<details>
+  <summary>AI-Driven Agriculture Management System (AMS) with IoT Integration (2022)</summary>
+
+- Led the development of an advanced Agriculture Management System (AMS) integrating AI, IoT, and Blender software.
+- Created a digital twin of agricultural environments and employed IoT sensors for real-time data collection.
+- Implemented AI algorithms for predictive analytics and designed a user-friendly interface for farmers.
+</details>
+
+<details>
+  <summary>NLP-based BERT Model for Textual Entailment Prediction in the Legal Domain (2022)</summary>
+
+- Led the conception, design, and execution of the NLP-based BERT model project for legal domain textual entailment prediction
+- Curated and annotated a high-quality dataset tailored to legal text understanding and entailment recognition.
+- Implemented advanced NLP techniques and model fine-tuning strategies to optimise BERT performance for legal text analysis
+- Collaborated closely with legal experts to ensure the model's accuracy and relevance to real-world legal applications
+</details>
+
 ## CERTIFICATIONS
 - **Google Data Analytics (2021)**
 - **Python for Genomic Data Science (2020)**
