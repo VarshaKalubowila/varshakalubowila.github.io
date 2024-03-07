@@ -1,9 +1,8 @@
 
 **[Professional Research Experience](#professional-research-experience) | [Projects](#projects) | [Contact](#contact)**
 
-## Hello!
-I’m Varsha, currently a M2 student at BME Paris Program.
-
+## Hey there!
+I'm Varsha, currently diving into the world of biomedical engineering as an Masters student in Paris. I'm passionate about unraveling the complexities of neuroscience and bioengineering. 
 ---
 
 ## EDUCATION
