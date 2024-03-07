@@ -18,21 +18,17 @@
     <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
     {% if site.logo %}
-      <img src="{{site.logo | relative_url}}" alt="Logo">
+      <div class="contact-info">
+        <a href="mailto:varsha.kalubowila@etu.u-paris.fr">
+          <img src="/image/mail.png" alt="Email Logo" style="width: 20px;">
+        </a>
+        <p>Email</p>
+        <a href="https://www.linkedin.com/in/varsha-kalubowila/">
+          <img src="/image/linkedin.png" alt="LinkedIn Logo" style="width: 20px;">
+        </a>
+        <p>LinkedIn</p>
+      </div>
     {% endif %}
-
-    <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-    <div class="contact-info">
-      <a href="mailto:varsha.kalubowila@etu.u-paris.fr">
-        <img src="/image/mail.png" alt="Email Logo" style="width: 30px;">
-        <p style="text-align: center;">Email</p>
-      </a>
-      <a href="https://www.linkedin.com/in/varsha-kalubowila/">
-        <img src="/image/linkedin.png" alt="LinkedIn Logo" style="width: 30px;">
-        <p style="text-align: center;">LinkedIn</p>
-      </a>
-    </div>
   </header>
   <section>
     {{ content }}
@@ -42,8 +38,4 @@
       <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
     {% endif %}
     <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-  </footer>
-</div>
-<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-</body>
-</html>
+  </foot
