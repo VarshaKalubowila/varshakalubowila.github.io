@@ -1,8 +1,8 @@
 
 [Professional Research Experience](#professional-research-experience) | [Projects](#projects) | [Contact](#contact)
 
-## Hey there!
-I'm Varsha, currently diving into the world of biomedical engineering as an Masters student in Paris. I'm passionate about unraveling the complexities of neuroscience and bioengineering. 
+## Hello!
+Welcome to my world of innovation where neurons 🧠 meet algorithms 🤖 and curiosity knows no bounds! As a passionate explorer at the intersection of neuroscience and AI, I thrive on unraveling the mysteries of the brain while harnessing the power of machine learning to shape a more intelligent tomorrow. With a knack for turning complex data into meaningful insights and a love for pushing boundaries, I'm on a mission to decode the secrets of cognition and revolutionize how we perceive and interact with the world.
 
 
 ---
