@@ -58,8 +58,7 @@ Ceylon Business Appliances (Pvt) Ltd, Sri Lanka
 
 **Muscle Synergy Detection (2023)**
 - Conducted an exhaustive literature review on muscle synergy analysis and fall conditions
-- Development of MATLAB-based machine learning algorithms employing Non-negative Matrix Factorisation
-- (NNMF) for robust data analysis
+- Development of MATLAB-based machine learning algorithms employing Non-negative Matrix Factorisation (NNMF) for robust data analysis
 - Identification of critical muscle synergy patterns associated with falls across diverse scenarios, contributing valuable insights to the field of fall prevention
 
 **ToolKit for Mouse Brain Mapping (2023)** [Link to project](https://wiki.bme-paris.com/2023-project08/tiki-index.php?page=Home)
