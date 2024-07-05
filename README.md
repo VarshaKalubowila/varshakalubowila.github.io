@@ -22,7 +22,7 @@ Welcome to my world of innovation where neurons 🧠 meet algorithms 🤖 and cu
 
 ## PROFESSIONAL RESEARCH EXPERIENCE
 
-**Research Engineer Intern (02/2024 - Current)** <br>
+**Research Engineer Intern (02/2024 - 07/2024)** <br>
 Agency - Institut Jean Nicod (ENS - PSL) - Capgemeni Engineering 
   - Adapting an existing experimental paradigm designed for behavioural data acquisition to incorporate EEG data acquisition.
   - Conducting EEG data acquisition sessions with participants interacting with the HMI.
