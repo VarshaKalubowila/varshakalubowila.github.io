@@ -55,6 +55,9 @@ Ceylon Business Appliances (Pvt) Ltd, Sri Lanka
 ---
 
 ## PROJECTS
+**Sense of Agency in Automated Society (2024)**
+- Adapted a behavioural experimental paradigm to capture and analyse electroencephalography (EEG) data, focusing on how participants interacted with an intelligent system under varied levels of automation
+- Utilised machine learning techniques to identify physiological markers of the sense of agency, aiming to develop objective and reliable indicators for complex human-machine interaction scenario
 
 **Muscle Synergy Detection (2023)**
 - Conducted an exhaustive literature review on muscle synergy analysis and fall conditions
