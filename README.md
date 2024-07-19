@@ -89,24 +89,22 @@ Ceylon Business Appliances (Pvt) Ltd, Sri Lanka
 
 ## Technical Skills
 
-Technical Skills
-
-Machine Learning & Data Science:
+**Machine Learning & Data Science:**
   - Algorithms: Linear Regression, Decision Trees, Random Forests, SVM, K-Means, PCA
   - NLP: Text Preprocessing, NER, Sentiment Analysis, BERT, GPT
   - Frameworks: TensorFlow (Keras, GPU Training, TensorBoard), PyTorch (Custom Datasets, Transfer Learning)
 
-Image Processing:
+**Image Processing:**
   - OpenCV: Object Detection, Image Segmentation, Feature Extraction
 
-Programming Languages:
+**Programming Languages:**
   - Python: NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
  - Java: OOP, Multithreading, Spring Framework
  - MATLAB: Signal Processing, Simulink
  - R: ggplot2, Shiny
   - C/C++: Data Structures, STL
 
-Data Visualization:
+**Data Visualization:**
   - Tableau: Dashboards, Interactive Visualizations
   - PowerBI: Data Modeling, DAX, Real-time Data Streaming
 
