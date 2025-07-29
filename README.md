@@ -21,6 +21,12 @@ Welcome to my world of innovation where neurons 🧠 meet algorithms 🤖 and cu
 ---
 
 ## PROFESSIONAL RESEARCH EXPERIENCE
+**Data Scientist (09/2024 - Current)** <br>
+OCTAVE – Data and Advanced Analytics Division of the John Keells Group, Sri Lanka
+  - Built machine learning models and conducted statistical analysis to optimize business processes across domains.
+  - Analyzed large-scale datasets using Python, Azure, MS Databricks, and PySpark.
+  - Collaborated with stakeholders to deliver scalable, data-driven solutions.
+  - Worked in an agile environment to drive impactful advanced analytics initiatives.
 
 **Research Engineer Intern (02/2024 - 07/2024)** <br>
 Agency - Institut Jean Nicod (ENS - PSL) - Capgemeni Engineering 
