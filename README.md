@@ -126,8 +126,9 @@ Ceylon Business Appliances (Pvt) Ltd, Sri Lanka
 - Distributed data processing: PySpark, Databricks (Azure), SQL
 - Pipeline design for high-volume transactional and time-series data
   
-**Image Processing:**
-  - OpenCV: Object Detection, Image Segmentation, Feature Extraction
+**Image & Signal Processing:**
+  - Computer Vision: OpenCV (feature extraction, segmentation, object detection)
+  - Signal Processing: MATLAB, Simulink
 
 **Programming Languages:**
 - Python: NumPy, Pandas, SciPy, scikit-learn, Matplotlib, Seaborn
