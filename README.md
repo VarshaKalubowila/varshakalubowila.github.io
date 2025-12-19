@@ -23,10 +23,11 @@ Welcome to my world of innovation where neurons 🧠 meet algorithms 🤖 and cu
 ## PROFESSIONAL RESEARCH EXPERIENCE
 **Data Scientist (09/2024 - Current)** <br>
 OCTAVE – Data and Advanced Analytics Division of the John Keells Group, Sri Lanka
-  - Built machine learning models and conducted statistical analysis to optimize business processes across domains.
-  - Analyzed large-scale datasets using Python, Azure, MS Databricks, and PySpark.
-  - Collaborated with stakeholders to deliver scalable, data-driven solutions.
-  - Worked in an agile environment to drive impactful advanced analytics initiatives.
+  - Conduct applied research in statistical modelling, optimization, and machine learning to study and improve complex decision systems in retail and energy domains
+  - Design and implement large-scale data pipelines and analytical models using Python, PySpark, SQL, and Databricks, enabling reproducible experimentation on high-volume transactional data
+  - Develop interpretable modelling frameworks combining statistical association methods, clustering, and constrained optimization, with emphasis on explainability and robustness
+  - Translate open-ended business problems into formal analytical formulations (objective functions, constraints, state dynamics) and evaluate solutions through simulation and sensitivity analysis
+  - Collaborate with cross-functional domain experts to validate assumptions, refine models, and ensure methodological soundness of analytical outputs
 
 **Research Engineer Intern (02/2024 - 07/2024)** <br>
 Agency - Institut Jean Nicod (ENS - PSL) - Capgemeni Engineering 
@@ -61,6 +62,23 @@ Ceylon Business Appliances (Pvt) Ltd, Sri Lanka
 ---
 
 ## PROJECTS
+
+**Product Substitutability & Assortment Intelligence System (2025)**
+- Developed a behavior-driven framework to identify product substitutability using large-scale retail transaction and customer data
+- Curated a high-quality item universe by integrating transactional sales, lifecycle status, and category metadata, applying strict filtering to reduce noise and bias
+- Modelled item–item relationships using Yule’s Q, derived from 2×2 contingency tables at both customer and transaction levels
+- Converted association measures into normalized distance metrics and combined multiple behavioral signals into a unified similarity score
+- Applied hierarchical clustering (Ward linkage) on item–item distance matrices to validate natural groupings and constrain substitution boundaries
+- Produced ranked substitute sets per item, enabling downstream analysis of out-of-stock impact and assortment structure
+
+**Fuel Inventory & Sales Optimization under Stock Constraints (2025)**
+- Designed a dynamic optimization framework to maximize fuel sales and margin under realistic stock flow, lead-time, and storage constraints
+- Formulated a multi-period, daily optimization model incorporating stock, demand forecasts with explicit time-lag dynamics
+- Modelled inventory flows using rolling state variables to reflect real-world logistics (advance sales visibility vs. delayed physical arrivals)
+- Embedded constraint-driven behavior including storage limits, evacuation pressure, market share bounds, and competitor stock conditions
+- Solved the constrained optimization problem using numerical methods (SLSQP) with explainable objective components and penalty terms
+- Built a simulation layer to track daily sales, stock evolution, and constraint activation for model validation and scenario analysis
+
 **Sense of Agency in Automated Society (2024)**
 - Adapted a behavioural experimental paradigm to capture and analyse electroencephalography (EEG) data, focusing on how participants interacted with an intelligent system under varied levels of automation
 - Utilised machine learning techniques to identify physiological markers of the sense of agency, aiming to develop objective and reliable indicators for complex human-machine interaction scenario
@@ -95,24 +113,31 @@ Ceylon Business Appliances (Pvt) Ltd, Sri Lanka
 
 ## Technical Skills
 
-**Machine Learning & Data Science:**
-  - Algorithms: Linear Regression, Decision Trees, Random Forests, SVM, K-Means, PCA
-  - NLP: Text Preprocessing, NER, Sentiment Analysis, BERT, GPT
-  - Frameworks: TensorFlow (Keras, GPU Training, TensorBoard), PyTorch (Custom Datasets, Transfer Learning)
+**Statistical Learning & Machine Learning:**
+  - Supervised & Unsupervised Methods: Linear & Logistic Regression, Decision Trees, Random Forests, Support Vector Machines, K-Means, Principal Component Analysis
+  - Representation Learning & NLP: Text preprocessing, Named Entity Recognition, Sentiment Analysis, Transformer-based models (BERT, GPT)
+  - Model Development Frameworks: TensorFlow (Keras, GPU training, TensorBoard), PyTorch (custom datasets, transfer learning)
 
+**Optimization & Analytical Modelling**
+  - Constrained numerical optimization (gradient-based methods), dynamic and time-lagged systems
+  - Statistical association measures, distance metrics, clustering, simulation-based validation
+
+**Data Engineering & Large-Scale Analytics**
+- Distributed data processing: PySpark, Databricks (Azure), SQL
+- Pipeline design for high-volume transactional and time-series data
+  
 **Image Processing:**
   - OpenCV: Object Detection, Image Segmentation, Feature Extraction
 
 **Programming Languages:**
-  - Python: NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
- - Java: OOP, Multithreading, Spring Framework
- - MATLAB: Signal Processing, Simulink
- - R: ggplot2, Shiny
-  - C/C++: Data Structures, STL
+- Python: NumPy, Pandas, SciPy, scikit-learn, Matplotlib, Seaborn
+- Java: Object-Oriented Design, Multithreading, Spring Framework
+- R: Statistical analysis, ggplot2, Shiny
+- C/C++: Data structures, STL, performance-oriented programming
 
 **Data Visualization:**
-  - Tableau: Dashboards, Interactive Visualizations
-  - PowerBI: Data Modeling, DAX, Real-time Data Streaming
+  - Tableau: Interactive dashboards, exploratory visual analytics
+  - PowerBI: Data Modeling, DAX, Real-time reporting
 
 ---
 
