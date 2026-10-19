@@ -17,8 +17,8 @@ layout: default
       <a class="btn btn-outline" href="#contact">Get in touch</a>
     </div>
     <div class="mono hero-meta">
-      <span>◎ {{ site.location }}</span>
-      <span>◎ {{ site.availability }}</span>
+      {% if site.location and site.location != "" %}<span>◎ {{ site.location }}</span>{% endif %}
+      {% if site.availability and site.availability != "" %}<span>◎ {{ site.availability }}</span>{% endif %}
     </div>
   </div>
 
