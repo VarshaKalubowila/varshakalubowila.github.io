@@ -1,0 +1,33 @@
+intro: >-
+  I build machine-learning and statistical methods for
+  <strong>physiological signals</strong> and <strong>imperfect real-world data</strong>,
+  from EEG and EMG studies in Paris labs to validated production systems in industry.
+
+interests:
+  - ML for physiological signals
+  - Estimation from censored & missing data
+  - Sequential decision-making
+  - Trustworthy, monitored clinical AI
+  - Explainable AI & human agency
+
+facts:
+  - label: MSc · 2022–24
+    value: Biomedical Engineering, Paris
+    detail: PSL · Université Paris Cité · Arts et Métiers
+  - label: BEng (Hons) · 2021
+    value: First-Class · GPA 4.0
+    detail: Birmingham City University
+  - label: Research labs
+    value: 3 labs in Paris
+    detail: Institut Jean Nicod · CNRS · Brain Plasticity Unit
+  - label: Industry
+    value: Senior Data Scientist
+    detail: OCTAVE, John Keells Group · 2024–
+
+monitor:
+  - label: Modalities
+    value: EEG · EMG · imaging
+  - label: Methods
+    value: ML · stats · DP
+  - label: Focus
+    value: clinical AI

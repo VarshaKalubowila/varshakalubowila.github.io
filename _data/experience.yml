@@ -1,0 +1,46 @@
+# Newest first. `current: true` gives the timeline dot the accent colour.
+- dates: 09/2024 — Present
+  place: Colombo
+  role: Senior Data Scientist
+  org: OCTAVE, John Keells Group
+  current: true
+  summary: >-
+    Lead end-to-end estimation, optimisation and monitoring systems: censored-demand
+    estimation, a dynamic-programming decision model, a validated Spark pipeline and
+    model-drift monitoring. Mentor a data-science intern.
+  tags: [PySpark, Databricks, Bellman DP, pytest]
+
+- dates: 02/2024 — 07/2024
+  place: Paris
+  role: Research Engineer
+  org: Institut Jean Nicod (ENS–PSL) × Capgemini Engineering
+  summary: >-
+    Adapted a PsychoPy autonomous-driving paradigm for EEG (Enobio 20), wrote the
+    electrode-placement and calibration protocols, ran the pilot sessions and managed
+    the data. Supervised by Valérian Chambon and Solène Le Bars.
+  tags: [EEG, PsychoPy, Explainable AI, Human participants]
+
+- dates: 04/2023 — 08/2023
+  place: Paris
+  role: Research Engineer
+  org: Plateforme d'Étude de la Sensorimotricité, CNRS
+  summary: >-
+    Built an EMG processing pipeline and extracted muscle synergies with NNMF in MATLAB
+    to find co-activation patterns linked to falls.
+  tags: [EMG, NNMF, MATLAB]
+
+- dates: 02/2023 — 03/2023
+  place: Paris
+  role: Research Engineer
+  org: Brain Plasticity Unit, PSL
+  summary: >-
+    Built a Python toolkit for brain-atlas registration, cell detection and 3D
+    reconstruction, with guided workflows for researchers.
+
+- dates: 2020 — 2022
+  place: Sri Lanka
+  role: Data Scientist, Engenuity AI · Prototype Developer, Ceylon Business Appliances
+  earlier: true
+  summary: >-
+    Clinical decision support for spinal cord disorders, BERT for legal entailment,
+    bio-signal and wearables prototyping.

@@ -1,0 +1,105 @@
+# categories: biosignals | clinical | methods  (used by the filter buttons)
+# visual:     emg | placeholder | pipeline | censor | bellman
+# url:        an internal case-study page; external_url: an outside link
+
+featured:
+  title: Sense of Agency in an Automated Society
+  year: 2024
+  categories: [biosignals]
+  badges: [EEG, Human–machine interaction]
+  url: /projects/sense-of-agency/
+  figure_caption: TRIAL · intention → AI drives → key press → tone → rating
+  figure_note: Illustrative trace
+  summary: >-
+    Does explaining an AI's intentions give people back their sense of control?
+    Participants supervised an AI driving a car under four levels of explanation.
+    I adapted the task to record EEG alongside agency ratings, intentional binding
+    and sensory-attenuation catch trials, then ran the pilot.
+  meta:
+    - label: Lab
+      value: Institut Jean Nicod
+    - label: Conditions
+      value: 4 AI-explanation levels
+    - label: EEG
+      value: Enobio 20 · 500 S/s
+
+list:
+  - title: Muscle Synergies & Falls
+    label: EMG · 2023
+    org: CNRS
+    categories: [biosignals]
+    visual: emg
+    summary: >-
+      EMG pipeline and NNMF synergy extraction to find muscle co-activation patterns
+      linked to fall-prone conditions. Grounded in my M1 review comparing NMF, PCA,
+      ICA and factor analysis for synergy extraction.
+
+  - title: Toolkit for Mouse Brain Mapping
+    label: Neuroimaging · 2023
+    org: PSL
+    categories: [biosignals]
+    visual: placeholder
+    visual_text: atlas registration screenshot
+    external_url: https://wiki.bme-paris.com/2023-project08/tiki-index.php?page=Home
+    link_label: Project wiki ↗
+    summary: >-
+      Python app for atlas registration, cell detection and 3D reconstruction, with
+      guided workflows for researchers.
+
+  - title: Clinical Decision Support for Spinal Cord Disorders
+    label: Clinical AI · 2022
+    org: Engenuity AI
+    categories: [clinical]
+    visual: pipeline
+    summary: >-
+      ML/DL system for diagnosis and treatment recommendations, built with a
+      multidisciplinary clinical team.
+
+  - title: True Demand under Censoring
+    label: Statistical methods · 2026
+    org: Industry
+    categories: [methods]
+    visual: censor
+    note: Method-level only · no client data
+    summary: >-
+      Reconstructs demand hidden by stock-outs: two detection methods, shrunk
+      multiplicative factors, leave-one-out calibration, pre-registered hypotheses
+      and a 10-phase backtest.
+
+  - title: Sequential Decisions with Explainable Rewards
+    label: Decision science · 2026
+    org: Industry
+    categories: [methods]
+    visual: bellman
+    note: Method-level only · no client data
+    summary: >-
+      Bellman value iteration written from scratch for multi-period inventory
+      decisions, with per-day reward decomposition. Then a self-critique and V2
+      redesign.
+
+more:
+  - title: Validated Spark pipeline redesign
+    year: 2026
+    summary: >-
+      Parity-first rebuild of a production Databricks pipeline: 125 unit tests, data
+      contracts, 5 legacy logic errors fixed, runtime cut from about 2 h to 30 min.
+  - title: Model drift & KPI monitoring
+    year: 2026
+    summary: >-
+      Delivery lead: KPI definitions and thresholds agreed with the business, weekly
+      tracking and steering-committee reporting.
+  - title: Product substitutability
+    year: 2025
+    summary: >-
+      Yule's Q from contingency tables → normalised distances → Ward clustering →
+      ranked substitute sets per item.
+  - title: BERT for legal textual entailment
+    year: 2022
+    external_url: https://www.engenuityai.com/general-4
+    summary: >-
+      Curated and annotated a legal dataset with domain experts and fine-tuned BERT.
+  - title: AI-driven agriculture management with IoT
+    year: 2022
+    external_url: https://drive.google.com/u/0/uc?id=1hcPwwZDcmVIBp97mhlGNkrDuFQzIMA6r&export=download
+    summary: >-
+      Digital twin combining IoT sensors, predictive analytics and Blender.

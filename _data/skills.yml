@@ -1,0 +1,24 @@
+- name: Biosignals & neuro
+  items:
+    - EEG acquisition & analysis
+    - EMG processing, muscle synergies
+    - Atlas registration, cell detection
+    - Behavioural / HMI paradigms
+- name: Statistics & ML
+  items:
+    - Censored / latent estimation
+    - Calibration, backtesting, drift
+    - Clustering, PCA, NNMF
+    - Transformers (BERT)
+- name: Optimisation
+  items:
+    - Dynamic programming (Bellman)
+    - Constrained NLP (SLSQP)
+    - Simulation & sensitivity analysis
+    - Explainable reward design
+- name: Research engineering
+  items:
+    - Python, MATLAB, SQL, PySpark
+    - Databricks, Delta, Unity Catalog
+    - pytest, validation gates, Git
+    - Reproducible, documented pipelines

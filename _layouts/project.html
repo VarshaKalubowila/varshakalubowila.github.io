@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{% assign home = '/' | relative_url %}
+<section class="wrap case-head">
+  <div class="mono crumb">PROJECTS / {{ page.category | upcase }} / <span class="accent">{{ page.short_title | default: page.title | upcase }}</span></div>
+  <h1 class="case-title">{{ page.title }}</h1>
+  {% if page.lead %}<p class="case-lead">{{ page.lead }}</p>{% endif %}
+  {% if page.meta %}
+  <dl class="mono case-meta">
+    {% for m in page.meta %}<div><dt>{{ m.label | upcase }}</dt><dd>{{ m.value }}</dd></div>{% endfor %}
+  </dl>
+  {% endif %}
+</section>
+
+<section class="wrap case-body">
+  {% if page.toc %}
+  <nav class="mono case-toc" aria-label="On this page">
+    <div class="muted">ON THIS PAGE</div>
+    <ol>
+      {% for t in page.toc %}<li><a href="#{{ t.id }}">{{ t.label }}</a></li>{% endfor %}
+    </ol>
+  </nav>
+  {% endif %}
+  <article class="case-article">
+    {{ content }}
+  </article>
+</section>
+
+<section class="wrap case-nav">
+  <a class="card case-link" href="{{ home }}#projects"><div class="mono muted small">← BACK</div><div class="case-link-title">All projects</div></a>
+  {% if page.next_url %}
+  <a class="card case-link dark" href="{{ page.next_url | relative_url }}"><div class="mono small">NEXT →</div><div class="case-link-title">{{ page.next_title }}</div></a>
+  {% endif %}
+</section>

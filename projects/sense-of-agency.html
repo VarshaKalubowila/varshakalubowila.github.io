@@ -1,0 +1,104 @@
+---
+layout: project
+title: Sense of Agency in an Automated Society
+short_title: Sense of Agency
+category: Biosignals
+description: An EEG study of whether explaining an AI's intentions restores people's sense of control when it drives.
+lead: When an AI drives, does explaining its intentions give people back the feeling of being in control? And can EEG measure that feeling objectively?
+meta:
+  - label: Lab
+    value: Institut Jean Nicod, ENS–PSL × Capgemini Engineering
+  - label: Period
+    value: Feb — Jul 2024 · MSc BIN internship
+  - label: Supervisors
+    value: Valérian Chambon, Solène Le Bars
+  - label: Stack
+    value: PsychoPy · Enobio 20 (Neuroelectrics) · Python
+toc:
+  - id: question
+    label: 01 Question
+  - id: design
+    label: 02 Study design
+  - id: role
+    label: 03 My role
+  - id: status
+    label: 04 Pilot & hypothesis
+  - id: learned
+    label: 05 What I learned
+---
+
+<div id="question" class="case-section">
+  <div class="mono kicker">01 / QUESTION</div>
+  <h2>Automation can take away the feeling of control</h2>
+  <p>The sense of agency is the experience of controlling your own actions and, through them, events in the world. Heavy automation erodes it. This is linked to the out-of-the-loop problem, to unclear responsibility after an accident, and to lower acceptance of the system.</p>
+  <p>The project tested whether an AI that shares its intentions, following Pacherie's distal / proximal / motor model, restores agency. It also tested whether EEG can serve as an objective marker of agency, since ratings are biased and binding measures are noisy and interrupt the task.</p>
+</div>
+
+<div id="design" class="case-section">
+  <div class="mono kicker">02 / STUDY DESIGN</div>
+  <h2>One trial, step by step</h2>
+  <ol class="mono steps">
+    <li><div class="muted">1 · INTENT</div><div>Participant picks a target among 4</div></li>
+    <li><div class="muted">2 · AI DRIVES</div><div>X then Y move, 500–800 ms each</div></li>
+    <li><div class="muted">3 · CONFIRM</div><div>Fast key press to validate the joint action</div></li>
+    <li><div class="muted">4 · TONE</div><div>Tone after 350 ms; 500 Hz catch tone on ~10%</div></li>
+    <li class="step-accent"><div>5 · RATE</div><div>Felt control on a 10-point scale</div></li>
+  </ol>
+
+  <div class="table-box">
+    <table>
+      <thead class="mono"><tr><th>FACTOR</th><th>LEVELS</th></tr></thead>
+      <tbody>
+        <tr><td>AI explanation (across blocks)</td><td>None · Proximal (car movement) · Distal (strategy) · Proximal + distal</td></tr>
+        <tr><td>Automation (across sessions)</td><td>Manual motor training with arrow keys · AI-driven supervision</td></tr>
+        <tr><td>Strategy</td><td>Safe (20% obstacle risk, 2.5 pts) · Fast and greedy (50% risk, 4 pts) in training; risk equalised at 10% in the test phase</td></tr>
+        <tr><td>Measures</td><td>Agency ratings · reaction times · intentional binding (20% of trials) · ERP sensory attenuation · continuous EEG</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div id="role" class="case-section">
+  <div class="mono kicker">03 / MY ROLE</div>
+  <h2>Turning a behavioural task into an EEG study</h2>
+  <div class="role-grid">
+    <div class="card role"><div class="mono muted small">PARADIGM</div><p>Adapted the PsychoPy task for EEG. Built in counterbalanced block orders and interleaved catch trials.</p></div>
+    <div class="card role"><div class="mono muted small">ACQUISITION</div><p>Enobio 20 at 500 S/s (DC–125 Hz), synchronised with task events. Wrote the electrode-placement and calibration protocols.</p></div>
+    <div class="card role"><div class="mono muted small">SESSIONS</div><p>Recruited and scheduled participants, fitted electrodes and ran the pilot sessions.</p></div>
+    <div class="card role"><div class="mono muted small">DATA</div><p>Set up naming, logging and backups. Inspected artefacts and pre-processed the signals. Traced corrupted recordings with the manufacturer.</p></div>
+  </div>
+</div>
+
+<div id="status" class="case-section">
+  <div class="mono kicker">04 / PILOT &amp; HYPOTHESIS</div>
+  <h2>The EEG set-up works with the task. Next is the main study.</h2>
+  <figure class="monitor erp">
+    <div class="mono hypothesis">HYPOTHESIS · ILLUSTRATIVE, NOT STUDY DATA</div>
+    <svg viewBox="0 0 720 240" role="img" aria-label="Illustrative ERP: smaller response to self-caused tones when agency is high">
+      <g class="monitor-grid"><line x1="40" y1="20" x2="40" y2="210"/><line x1="40" y1="210" x2="700" y2="210"/><line x1="40" y1="110" x2="700" y2="110" stroke-dasharray="3 4"/></g>
+      <polyline class="sig sig-2" data-trace="erp" data-peak="75" data-shift="0"/>
+      <polyline class="sig" data-trace="erp" data-peak="40" data-shift="0.01"/>
+      <g class="monitor-labels"><text x="48" y="30">ERP amplitude</text><text x="600" y="228">time after tone</text></g>
+    </svg>
+    <figcaption class="mono legend">
+      <span><i class="swatch swatch-2"></i>Low agency / unexpected tone</span>
+      <span><i class="swatch"></i>High agency: attenuated response</span>
+    </figcaption>
+  </figure>
+  <p>The expected marker is sensory attenuation: a smaller ERP to tones people feel they caused. These responses will be compared with agency ratings across the four explanation levels. The pilot showed the paradigm is feasible. Analysis was still ongoing when the report was submitted.</p>
+  <div class="stat-grid">
+    <div class="card stat"><div class="mono muted small">CONDITIONS</div><div class="stat-value">4</div><div class="stat-label">AI-explanation levels</div></div>
+    <div class="card stat"><div class="mono muted small">SAMPLING</div><div class="stat-value">500 S/s</div><div class="stat-label">Enobio 20 EEG</div></div>
+    <div class="card stat"><div class="mono muted small">CATCH TRIALS</div><div class="stat-value">~10%</div><div class="stat-label">500 Hz tone, per condition</div></div>
+    <div class="card stat"><div class="mono muted small">BINDING PROBES</div><div class="stat-value">20%</div><div class="stat-label">of trials, to limit movement</div></div>
+  </div>
+</div>
+
+<div id="learned" class="case-section">
+  <div class="mono kicker">05 / WHAT I LEARNED</div>
+  <ul class="learned">
+    <li><strong>Data quality is designed in.</strong> Impedance problems, noise and corrupted files from the device needed fixing in real time and a clear troubleshooting protocol.</li>
+    <li><strong>Participants don't always do what the design assumes.</strong> Some ignored the AI's explanations. Longer motor training, clearer visual instructions and periodic reminders were my proposed fixes.</li>
+    <li><strong>Experimental control costs time.</strong> Counterbalancing, catch trials and binding probes add trials. Separate map sub-matrices per block kept the session length manageable.</li>
+  </ul>
+</div>

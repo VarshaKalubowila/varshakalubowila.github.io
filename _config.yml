@@ -1,5 +1,30 @@
+# Site settings — edit these, then push.
 title: Varsha Kalubowila
-logo: /image/dp.png
-description: Data Scientist
-show_down loads: false
-theme: jekyll-theme-minimal
+description: >-
+  Biomedical engineer and senior data scientist building machine-learning and
+  statistical methods for physiological signals and imperfect real-world data.
+url: "https://varshakalubowila.github.io"
+baseurl: ""
+lang: en
+
+# Hero
+tagline: Biomedical engineer · Senior data scientist
+location: Colombo, Sri Lanka
+availability: Open to PhD positions — Europe / France
+
+# Contact. Leave a value empty ("") to hide that row or button.
+email: varshkalubowila@gmail.com
+linkedin: https://www.linkedin.com/in/varsha-kalubowila/
+github: https://github.com/varshakalubowila
+orcid: ""
+cv_pdf: ""          # e.g. /assets/files/Varsha_Kalubowila_CV.pdf
+
+# GitHub Pages builds these by default
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

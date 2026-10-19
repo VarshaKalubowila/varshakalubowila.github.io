@@ -1,0 +1,12 @@
+degrees:
+  - title: MSc Biomedical Engineering — Bioengineering & Innovation in Neuroscience
+    school: PSL University · Université Paris Cité · Arts et Métiers ParisTech
+    detail: "Internship report: EEG markers of agency in automated driving · Supervisors: V. Chambon, S. Le Bars"
+    dates: 2022 — 2024
+  - title: BEng (Hons) Biomedical Engineering — First-Class, GPA 4.0
+    school: Birmingham City University, UK
+    detail: ""   # add your final-year project title here
+    dates: "2021"
+
+certificates: >-
+  Python for Genomic Data Science, Johns Hopkins (2020) · Google Data Analytics (2021)

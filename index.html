@@ -1,0 +1,215 @@
+---
+layout: default
+---
+{% assign p = site.data.profile %}
+{% assign pr = site.data.projects %}
+
+<!-- HERO -->
+<section class="wrap hero" id="top">
+  <div class="hero-text">
+    <div class="mono eyebrow"><span class="dot"></span>{{ site.tagline | upcase }}</div>
+    <h1 class="hero-title">Varsha<br>Kalubowila</h1>
+    <p class="hero-lead">{{ p.intro }}</p>
+    <div class="hero-ctas">
+      <a class="btn btn-accent" href="#projects">See the research
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a class="btn btn-outline" href="#contact">Get in touch</a>
+    </div>
+    <div class="mono hero-meta">
+      <span>◎ {{ site.location }}</span>
+      <span>◎ {{ site.availability }}</span>
+    </div>
+  </div>
+
+  <figure class="monitor">
+    <div class="mono monitor-head"><span>SIGNAL VIEW · 4 CH</span><span>illustrative trace</span></div>
+    <svg viewBox="0 0 440 260" role="img" aria-label="Illustrative EEG and EMG signal traces">
+      <g class="monitor-grid">
+        <line x1="0" y1="65" x2="440" y2="65"/><line x1="0" y1="130" x2="440" y2="130"/><line x1="0" y1="195" x2="440" y2="195"/>
+        <line x1="110" y1="0" x2="110" y2="260"/><line x1="220" y1="0" x2="220" y2="260"/><line x1="330" y1="0" x2="330" y2="260"/>
+      </g>
+      <polyline class="sig" data-trace="eeg" data-w="440" data-base="36" data-amp="14" data-seed="3"/>
+      <polyline class="sig" data-trace="eeg" data-w="440" data-base="100" data-amp="14" data-seed="7" data-spikes="1"/>
+      <polyline class="sig" data-trace="eeg" data-w="440" data-base="164" data-amp="12" data-seed="11"/>
+      <polyline class="sig sig-2" data-trace="emg" data-w="440" data-base="230" data-amp="30" data-seed="5"/>
+      <g class="monitor-labels">
+        <text x="4" y="14">Fz</text><text x="4" y="79">Cz</text><text x="4" y="144">Pz</text><text x="4" y="209" class="sig-2-text">EMG</text>
+      </g>
+    </svg>
+    <figcaption class="mono monitor-foot">
+      {% for m in p.monitor %}<div><div class="monitor-label">{{ m.label | upcase }}</div><div class="monitor-value">{{ m.value }}</div></div>{% endfor %}
+    </figcaption>
+  </figure>
+</section>
+
+<!-- INTERESTS + FACTS -->
+<section class="wrap block-tight">
+  <div class="card facts-card">
+    <div class="chips">
+      <span class="mono muted small chips-label">RESEARCH INTERESTS →</span>
+      {% for i in p.interests %}<span class="chip">{{ i }}</span>{% endfor %}
+    </div>
+    <div class="facts">
+      {% for f in p.facts %}
+      <div class="fact">
+        <div class="mono muted small">{{ f.label }}</div>
+        <div class="fact-value">{{ f.value }}</div>
+        <div class="fact-detail">{{ f.detail }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- 01 RESEARCH -->
+<section class="wrap block split" id="research">
+  <div class="split-side">
+    <div class="mono kicker">01 / RESEARCH</div>
+    <h2 class="section-title">Experience</h2>
+    <p class="section-lead">Hands-on human-subject research, biosignal pipelines and research software, followed by production ML.</p>
+  </div>
+  <ol class="timeline split-main">
+    {% for e in site.data.experience %}
+    <li class="{% if e.current %}is-current{% elsif e.earlier %}is-earlier{% endif %}">
+      <span class="tl-dot" aria-hidden="true"></span>
+      <div class="mono muted small">{{ e.dates | upcase }} · {{ e.place | upcase }}</div>
+      <h3 class="tl-title">{{ e.role }}{% if e.org %} — {{ e.org }}{% endif %}</h3>
+      <p class="tl-text">{{ e.summary }}</p>
+      {% if e.tags %}<div class="mono tags">{% for t in e.tags %}<span class="tag">{{ t }}</span>{% endfor %}</div>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<!-- 02 PROJECTS -->
+<section class="wrap block" id="projects">
+  <div class="section-row">
+    <div>
+      <div class="mono kicker">02 / PROJECTS</div>
+      <h2 class="section-title">Selected work</h2>
+    </div>
+    <div class="mono filters" role="group" aria-label="Filter projects">
+      <button type="button" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" data-filter="biosignals" aria-pressed="false">Neuro &amp; biosignals</button>
+      <button type="button" data-filter="clinical" aria-pressed="false">Clinical AI</button>
+      <button type="button" data-filter="methods" aria-pressed="false">Statistical methods</button>
+    </div>
+  </div>
+
+  <div class="project-grid">
+    {% assign f = pr.featured %}
+    <article class="card featured" data-cat="{{ f.categories | join: ' ' }}">
+      <div class="featured-visual">
+        <div class="mono monitor-label">{{ f.figure_caption }}</div>
+        <svg viewBox="0 0 400 120" aria-hidden="true"><polyline class="sig" data-trace="eeg" data-w="400" data-base="60" data-amp="26" data-seed="13" data-spikes="1"/></svg>
+        <div class="mono monitor-label">{{ f.figure_note }}</div>
+      </div>
+      <div class="featured-body">
+        <div class="mono tags">
+          <span class="tag tag-accent">FEATURED · {{ f.year }}</span>
+          {% for b in f.badges %}<span class="tag">{{ b }}</span>{% endfor %}
+        </div>
+        <h3 class="featured-title">{{ f.title }}</h3>
+        <p class="card-text">{{ f.summary }}</p>
+        <dl class="mono featured-meta">
+          {% for m in f.meta %}<div><dt>{{ m.label | upcase }}</dt><dd>{{ m.value }}</dd></div>{% endfor %}
+        </dl>
+        <a class="link-accent" href="{{ f.url | relative_url }}">Read the case study →</a>
+      </div>
+    </article>
+
+    {% for c in pr.list %}
+    <article class="card project" data-cat="{{ c.categories | join: ' ' }}">
+      <div class="mono muted small project-top"><span>{{ c.label | upcase }}</span><span>{{ c.org }}</span></div>
+      {% case c.visual %}
+      {% when 'emg' %}
+        <svg class="project-visual" viewBox="0 0 300 64" aria-hidden="true"><polyline class="sig-rust" data-trace="emg" data-w="300" data-base="32" data-amp="34" data-seed="17"/></svg>
+      {% when 'placeholder' %}
+        <div class="project-visual mono muted small center">[{{ c.visual_text }}]</div>
+      {% when 'pipeline' %}
+        <div class="project-visual mono pipeline" aria-hidden="true"><span>patient data</span>→<span>ML / DL</span>→<span class="pipe-accent">recommendation</span></div>
+      {% when 'censor' %}
+        <svg class="project-visual" viewBox="0 0 300 64" aria-hidden="true">
+          <polyline points="10,50 50,38 90,44 130,30 170,34 210,24 250,28 290,20" fill="none" stroke="var(--ink)" stroke-width="1.4" stroke-dasharray="4 3"/>
+          <polyline points="10,50 50,38 90,44 130,40 170,40 210,40 250,40 290,40" fill="none" stroke="var(--accent)" stroke-width="1.8"/>
+        </svg>
+      {% when 'bellman' %}
+        <div class="project-visual mono center" aria-hidden="true">V(s) = max<sub>a</sub> [ r(s,a) + γ V(s′) ]</div>
+      {% endcase %}
+      <h3 class="card-title">{{ c.title }}</h3>
+      <p class="card-text">{{ c.summary }}</p>
+      {% if c.url %}<a class="link-accent" href="{{ c.url | relative_url }}">Case study →</a>
+      {% elsif c.external_url %}<a class="link-accent" href="{{ c.external_url }}" target="_blank" rel="noopener">{{ c.link_label | default: 'Link ↗' }}</a>
+      {% elsif c.note %}<div class="mono muted small">{{ c.note }}</div>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+
+  <details class="card more">
+    <summary class="mono">+ More projects — {% for m in pr.more %}{{ m.title }}{% unless forloop.last %}, {% endunless %}{% endfor %}</summary>
+    <ul class="more-list">
+      {% for m in pr.more %}
+      <li>
+        <div class="mono muted small">{{ m.year }}</div>
+        <div><strong>{% if m.external_url %}<a href="{{ m.external_url }}" target="_blank" rel="noopener">{{ m.title }} ↗</a>{% else %}{{ m.title }}{% endif %}</strong>
+        <p>{{ m.summary }}</p></div>
+      </li>
+      {% endfor %}
+    </ul>
+  </details>
+</section>
+
+<!-- 03 SKILLS -->
+<section class="wrap block" id="skills">
+  <div class="mono kicker">03 / SKILLS</div>
+  <h2 class="section-title spaced">Toolkit</h2>
+  <div class="skills">
+    {% for g in site.data.skills %}
+    <div class="skill">
+      <div class="mono muted small">[ {{ 'ABCDEFGH' | slice: forloop.index0 }} ]</div>
+      <h3>{{ g.name }}</h3>
+      <ul>{% for s in g.items %}<li>{{ s }}</li>{% endfor %}</ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- 04 EDUCATION -->
+<section class="wrap block split" id="education">
+  <div class="split-side">
+    <div class="mono kicker">04 / EDUCATION</div>
+    <h2 class="section-title">Training</h2>
+  </div>
+  <div class="split-main stack">
+    {% for d in site.data.education.degrees %}
+    <div class="card degree">
+      <div class="degree-main">
+        <h3>{{ d.title }}</h3>
+        <p>{{ d.school }}</p>
+        {% if d.detail != "" %}<p class="mono muted small">{{ d.detail }}</p>{% endif %}
+      </div>
+      <div class="mono muted small">{{ d.dates }}</div>
+    </div>
+    {% endfor %}
+    <div class="mono small certs">Certificates · {{ site.data.education.certificates }}</div>
+  </div>
+</section>
+
+<!-- 05 CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap contact-inner">
+    <div class="contact-text">
+      <div class="mono kicker kicker-light">05 / CONTACT</div>
+      <h2 class="section-title">Looking for a PhD in<br>ML for health data.</h2>
+      <p>Biosignals, neurotech, clinical decision support or learning from censored clinical data. I'd be glad to talk.</p>
+    </div>
+    <ul class="mono contact-list">
+      {% if site.email != "" %}<li><a href="mailto:{{ site.email }}"><span>Email</span><span>{{ site.email }} ↗</span></a></li>{% endif %}
+      {% if site.linkedin != "" %}<li><a href="{{ site.linkedin }}" target="_blank" rel="noopener"><span>LinkedIn</span><span>↗</span></a></li>{% endif %}
+      {% if site.github != "" %}<li><a href="{{ site.github }}" target="_blank" rel="noopener"><span>GitHub</span><span>↗</span></a></li>{% endif %}
+      {% if site.orcid != "" %}<li><a href="{{ site.orcid }}" target="_blank" rel="noopener"><span>ORCID</span><span>↗</span></a></li>{% endif %}
+      {% if site.cv_pdf != "" %}<li><a href="{{ site.cv_pdf | relative_url }}"><span>Academic CV</span><span>PDF ↓</span></a></li>{% endif %}
+    </ul>
+  </div>
+</section>
