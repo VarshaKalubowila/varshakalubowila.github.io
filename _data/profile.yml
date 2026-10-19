@@ -1,7 +1,6 @@
 intro: >-
-  I build machine-learning and statistical methods for
-  <strong>physiological signals</strong> and <strong>imperfect real-world data</strong>,
-  from EEG and EMG studies in Paris labs to validated production systems in industry.
+  Brain signals, muscle signals, messy data. I build the methods that turn them
+  into <strong>evidence</strong>.
 
 interests:
   - ML for physiological signals
