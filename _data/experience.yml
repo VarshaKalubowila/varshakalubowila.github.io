@@ -37,10 +37,24 @@
     Built a Python toolkit for brain-atlas registration, cell detection and 3D
     reconstruction, with guided workflows for researchers.
 
-- dates: 2020 — 2022
+- dates: 07/2021 — 08/2022
   place: Sri Lanka
-  role: Data Scientist, Engenuity AI · Prototype Developer, Ceylon Business Appliances
+  role: Data Scientist
+  org: Engenuity AI
   earlier: true
   summary: >-
-    Clinical decision support for spinal cord disorders, BERT for legal entailment,
-    bio-signal and wearables prototyping.
+    Contributed to a clinical decision support system for spinal cord disorders using
+    machine and deep learning. Led a BERT model for textual entailment in the legal
+    domain, and built a digital twin with IoT sensors for agriculture.
+  tags: [Clinical AI, BERT, NLP, IoT]
+
+- dates: 01/2020 — 06/2021
+  place: Sri Lanka
+  role: Prototype Developer
+  org: Ceylon Business Appliances
+  earlier: true
+  summary: >-
+    Industry research in bio-signal processing and wearable technologies. Built
+    product prototypes to support design and manufacturing.
+  tags: [Bio-signals, Wearables, Prototyping]
+
