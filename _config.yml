@@ -10,11 +10,12 @@ lang: en
 # Hero
 tagline: Biomedical engineer · Senior data scientist
 location: Colombo, Sri Lanka
+availability: ""    # optional second line under the buttons, e.g. "Open to PhD positions"
 
 # Contact. Leave a value empty ("") to hide that row or button.
 email: varshkalubowila@gmail.com
 linkedin: https://www.linkedin.com/in/varsha-kalubowila/
-github: https://github.com/varshakalubowila
+github: https://github.com/VarshaKalubowila
 orcid: ""
 cv_pdf: ""          # e.g. /assets/files/Varsha_Kalubowila_CV.pdf
 
